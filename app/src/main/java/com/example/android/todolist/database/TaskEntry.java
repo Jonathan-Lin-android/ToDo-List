@@ -11,9 +11,7 @@ import java.util.Date;
 public class TaskEntry {
     @PrimaryKey(autoGenerate = true)
     private int id;
-    @ColumnInfo
     private String description;
-    @ColumnInfo
     private int priority;
     @ColumnInfo(name = "updated_at")
     private Date updatedAt;
